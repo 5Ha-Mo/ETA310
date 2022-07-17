@@ -1,0 +1,45 @@
+{
+    "name": "سورس ايطالي ميوزك",
+    "description": "سورس ميوزك لتشغيل الاغاني في المحادثات الصوتية .",
+    "keywords": ["EURO", "EURO-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
+    "repository": "https://github.com/etmusicbot/ETA310.git",
+  "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "ضع هنا الايبي ايدي حساب المساعد"
+        },
+        "API_HASH": {
+            "description": "ضع هنا الايبي هاش حساب المساعد"
+        },
+        "STRING_SESSION": {
+            "description": "يرجى وضع كود سيشن تليثون (كود تيرمكس) للحساب المساعد هنا ",
+            "required": true
+        },
+        "HEROKU_MODE": {
+            "description": "لا تغير هذه نهائيا",
+            "required": true,
+            "value": "ENABLE"
+        },
+        "SUPPORT": {
+            "description": "ضع هنا معرف مجموعتك او قناتك بدون @",
+            "required": false,
+            "value": "TESTETALEE"
+        },
+        "CHANNEL": {
+            "description": "ضع معرف قناتك اذا اردت غير ذلك اتركها ",
+            "required": false,
+            "value": "E4V4ER"
+        },
+        "BOT_USERNAME": {
+            "description": "هنا ضع معرف البوت بدون @",
+            "required": false,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "هنا ضع توكن بوتك",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
